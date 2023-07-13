@@ -1,5 +1,5 @@
 [package]
-name = "final_backend"
+name = "final_project_backend"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,4 +11,6 @@ crate-type = ["cdylib"]
 [dependencies]
 candid = "0.8"
 ic-cdk = "0.7"
-ic-cdk-timers = "0.1" # Feel free to remove this dependency if you don't need timers
+serde = "1.0.154"
+ic-cdk-macros = "0.6.9"
+ic-stable-structures = "0.5.6"
